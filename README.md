@@ -191,9 +191,10 @@ Este proceso incluye la admisión, evaluación, planificación de tratamiento y 
 | Seguimiento de Pacientes | Mantener Seguimiento  | Seguimiento y Evaluaciones      |
 | Cierre de Caso       | Mantener Cierre de Caso   | Cierre del Caso                 |
 
-## Arquitectura
+## Arquitectura de Modelo de Datos de Negocio
 
-![Arquitectura](ruta/a/tu/imagen/arquitectura.png)
+![image](https://github.com/user-attachments/assets/53399857-bfe6-410a-9a6e-19706dfccad9)
+
 
 ---
 
