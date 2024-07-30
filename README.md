@@ -97,60 +97,99 @@ Este proceso incluye la admisión, evaluación, planificación de tratamiento y 
 
 ### Admisión Paciente
 
-- **Gestión de Paciente:** Verificación de Paciente, Creación de Historia Clínica, Generación de Tarjeta de Admisión, Evaluación Psiquiátrica
-- **Gestión de Transacciones:** Generación de Cuenta Corriente
-- **Secretaría:** Programación de Cita
+| Proceso                | Subproceso               | Dominio            | Área Funcional        | Subsistema/Servicio       |
+|------------------------|--------------------------|--------------------|-----------------------|---------------------------|
+| Admisión de Pacientes  | Verificación de Paciente | Gestión de Paciente| Administración de Pacientes | Registro de Pacientes |
+|                        | Creación de Historia Clínica | Gestión de Paciente | Administración de Pacientes | Manejo de Historias Clínicas |
+|                        | Generación de Tarjeta de Admisión | Gestión de Paciente | Administración de Pacientes | Manejo de Historias Clínicas |
+|                        | Evaluación Psiquiátrica  | Gestión de Paciente | Administración de Pacientes | Manejo de Historias Clínicas |
+|                        | Generación de Cuenta Corriente | Gestión de Transacciones | Tesorería | Procesamiento de Pagos |
+|                        | Programación de Cita     | Gestión de Citas   | Secretaría             | Programación de Citas     |
 
 ### Caja
 
-- **Gestión de Clientes:** Solicitud y Verificación de Información del Cliente
-- **Gestión de Transacciones:** Registro del Monto a Abonar, Emisión del Recibo de Caja
+| Proceso  | Subproceso             | Dominio           | Área Funcional        | Subsistema/Servicio       |
+|----------|------------------------|-------------------|-----------------------|---------------------------|
+| Caja     | Solicitud de Información del Cliente | Gestión de Clientes | Secretaría             | Manejo de Información de Clientes |
+|          | Verificación de Datos  | Gestión de Clientes | Secretaría             | Manejo de Información de Clientes |
+|          | Registro del Monto a Abonar | Gestión de Transacciones | Tesorería | Procesamiento de Pagos |
+|          | Emisión del Recibo de Caja | Gestión de Transacciones | Tesorería | Procesamiento de Pagos |
 
 ### Teleconsulta
 
-- **Gestión de Paciente:** Registro, Verificación de Disponibilidad, Programación de Cita
-- **Gestión de Transacciones:** Generación de Orden de Pago, Envío de Documentos, Confirmación de Pago
-- **Soporte Técnico:** Envío de Recibo y Link
+| Proceso      | Subproceso           | Dominio            | Área Funcional        | Subsistema/Servicio       |
+|--------------|----------------------|--------------------|-----------------------|---------------------------|
+| Teleconsulta | Registro de Paciente | Gestión de Paciente| Administración de Pacientes | Registro de Pacientes |
+|              | Verificación de Disponibilidad | Gestión de Paciente | Administración de Pacientes | Registro de Pacientes |
+|              | Programación de Cita | Gestión de Paciente| Administración de Pacientes | Programación de Citas |
+|              | Generación de Orden de Pago | Gestión de Transacciones | Tesorería | Procesamiento de Pagos |
+|              | Envío de Documentos  | Gestión de Transacciones | Tesorería | Manejo de Documentos |
+|              | Confirmación de Cita | Gestión de Paciente| Administración de Pacientes | Programación de Citas |
+|              | Envío de Recibo y Link | Gestión de Comunicación | Soporte Técnico | Envío de Comunicaciones |
 
 ### Hospitalización
 
-- **Gestión de Hospitalización:** Generación de Ficha, Elección de Paciente y Módulo, Registro de Información
-- **Gestión de Deudas:** Generación de Deuda según Tarifario, Categoría y Módulo
+| Proceso         | Subproceso              | Dominio              | Área Funcional        | Subsistema/Servicio       |
+|-----------------|-------------------------|----------------------|-----------------------|---------------------------|
+| Hospitalización | Generación de Ficha de Hospitalización | Gestión de Hospitalización | Administración de Pacientes | Manejo de Hospitalización |
+|                 | Elección del Paciente   | Gestión de Hospitalización | Administración de Pacientes | Manejo de Hospitalización |
+|                 | Elección del Módulo     | Gestión de Hospitalización | Administración de Pacientes | Manejo de Hospitalización |
+|                 | Registro de Información de Internamiento | Gestión de Hospitalización | Administración de Pacientes | Manejo de Hospitalización |
+|                 | Generación de Deuda según Tarifario | Gestión de Deudas | Tesorería | Procesamiento de Deudas |
+|                 | Generación de Deuda según Categoría | Gestión de Deudas | Tesorería | Procesamiento de Deudas |
+|                 | Generación de Deuda según Módulo | Gestión de Deudas | Tesorería | Procesamiento de Deudas |
 
 ### Atención de Pacientes
 
-- **Gestión de Paciente:** Recepción y Admisión, Evaluación Inicial, Planificación de Tratamiento, Seguimiento y Evaluaciones, Cierre del Caso
+| Proceso          | Subproceso                | Dominio              | Área Funcional        | Subsistema/Servicio       |
+|------------------|---------------------------|----------------------|-----------------------|---------------------------|
+| Atención de Pacientes | Recepción y Admisión      | Gestión de Paciente | Administración de Pacientes | Registro de Pacientes |
+|                  | Evaluación Inicial        | Gestión de Paciente  | Administración de Pacientes | Evaluación y Diagnóstico |
+|                  | Plan de Tratamiento       | Gestión de Paciente  | Administración de Pacientes | Planificación de Tratamiento |
+|                  | Seguimiento y Evaluaciones Periódicas | Gestión de Paciente | Administración de Pacientes | Seguimiento de Pacientes |
+|                  | Cierre del Caso           | Gestión de Paciente  | Administración de Pacientes | Cierre de Caso |
 
 ## Portafolio de Servicios
 
 ### Admisión Paciente
 
-- **Registro de Pacientes:** Verificar Paciente, Crear Historia Clínica, Generar Tarjeta de Admisión, Evaluar Paciente
-- **Procesamiento de Pagos:** Generar Cuenta Corriente
-- **Programación de Citas:** Programar Cita
+| Subsistema/Servicio | Funcionalidad          | Operación                       |
+|---------------------|------------------------|---------------------------------|
+| Registro de Pacientes | Mantener Paciente     | Verificar Paciente, Crear Historia Clínica, Generar Tarjeta de Admisión, Evaluar Paciente |
+| Procesamiento de Pagos | Procesar Transacciones | Generar Cuenta Corriente        |
+| Programación de Citas | Mantener Cita         | Programar Cita                  |
 
 ### Caja
 
-- **Manejo de Información de Clientes:** Solicitar Información, Verificar Datos
-- **Procesamiento de Pagos:** Registrar Monto, Emitir Recibo
+| Subsistema/Servicio | Funcionalidad              | Operación                       |
+|---------------------|----------------------------|---------------------------------|
+| Manejo de Información de Clientes | Mantener Información del Cliente | Solicitar Información, Verificar Datos |
+| Procesamiento de Pagos | Procesar Transacciones  | Registrar Monto, Emitir Recibo  |
 
 ### Teleconsulta
 
-- **Registro de Pacientes:** Registrar Paciente, Verificar Disponibilidad, Programar Cita
-- **Procesamiento de Pagos:** Generar Orden de Pago, Enviar Documentos, Confirmar Pago
-- **Envío de Comunicaciones:** Enviar Recibo, Enviar Link de Videoconferencia
+| Subsistema/Servicio | Funcionalidad             | Operación                       |
+|---------------------|---------------------------|---------------------------------|
+| Registro de Pacientes | Mantener Paciente        | Registrar Paciente, Verificar Disponibilidad, Programar Cita |
+| Procesamiento de Pagos | Procesar Transacciones  | Generar Orden de Pago, Enviar Documentos, Confirmar Pago |
+| Envío de Comunicaciones | Mantener Comunicación  | Enviar Recibo, Enviar Link de Videoconferencia |
 
 ### Hospitalización
 
-- **Manejo de Hospitalización:** Generar Ficha de Hospitalización, Elegir Paciente y Módulo, Registrar Información de Internamiento
-- **Procesamiento de Deudas:** Generar Deuda según Tarifario, Categoría y Módulo
+| Subsistema/Servicio | Funcionalidad             | Operación                       |
+|---------------------|---------------------------|---------------------------------|
+| Manejo de Hospitalización | Mantener Hospitalización | Generar Ficha de Hospitalización, Elegir Paciente, Elegir Módulo, Registrar Información de Internamiento |
+| Procesamiento de Deudas | Procesar Deudas       | Generar Deuda según Tarifario, Generar Deuda según Categoría, Generar Deuda según Módulo |
 
 ### Atención de Pacientes
 
-- **Registro de Pacientes:** Recepción y Admisión, Evaluación y Diagnóstico
-- **Planificación de Tratamiento:** Plan de Tratamiento
-- **Seguimiento de Pacientes:** Seguimiento y Evaluaciones
-- **Cierre de Caso:** Cierre del Caso
+| Subsistema/Servicio | Funcionalidad              | Operación                       |
+|---------------------|----------------------------|---------------------------------|
+| Registro de Pacientes | Mantener Paciente         | Recepción y Admisión            |
+| Evaluación y Diagnóstico | Evaluar Paciente       | Evaluación Inicial              |
+| Planificación de Tratamiento | Mantener Plan de Tratamiento | Plan de Tratamiento             |
+| Seguimiento de Pacientes | Mantener Seguimiento  | Seguimiento y Evaluaciones      |
+| Cierre de Caso       | Mantener Cierre de Caso   | Cierre del Caso                 |
 
 ## Arquitectura
 
