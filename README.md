@@ -194,8 +194,8 @@ Este proceso incluye la admisión, evaluación, planificación de tratamiento y 
 ## Arquitectura de Modelo de Datos de Negocio
 
 ![image](https://github.com/user-attachments/assets/53399857-bfe6-410a-9a6e-19706dfccad9)
-
 El diagrama de modelo de dominio muestra la arquitectura de un sistema de gestión de pedidos médicos. Los principales elementos (entidades) incluyen Paciente, Enfermera, Doctor, Ordenes, Empleado de Material, Empleado de Suministros, Inventario de Suministros, Cantidad y Artículo, y Orden de Verificación. Cada entidad tiene atributos específicos, como códigos, nombres, teléfonos y correos electrónicos. Las relaciones entre entidades se representan mediante líneas de conexión, indicando interacciones como el cuidado del paciente por la enfermera, la aprobación de pedidos por el doctor, la gestión de inventarios por los empleados de suministros, y la verificación de disponibilidad de artículos. Esto permite una clara visualización de cómo se relacionan y manejan los pedidos y suministros en el sistema.
+
 ---
 
 _Escuela Profesional de Ciencia de la Computación_
