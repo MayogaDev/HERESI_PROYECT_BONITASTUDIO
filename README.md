@@ -209,21 +209,28 @@ El diagrama de modelo de dominio muestra la arquitectura de un sistema de gesti�
    - **Actividad:** Comienza el proceso cuando el doctor decide que se necesitan ciertos ítems.
    - **Acción:** El doctor ordena los ítems necesarios.
    - **Resultado:** Se inicia el flujo del proceso de pedido.
+![image](https://github.com/user-attachments/assets/ab4fde16-8626-45ae-85cd-adb12e5732cd)
+
 
 2. **Recepción del Pedido (Departamento de Material)**
    - **Actividad:** El departamento de material recibe el pedido del doctor.
    - **Acción:** La orden es recibida formalmente por el personal del departamento de material.
    - **Resultado:** El pedido es registrado en el sistema del departamento.
+![image](https://github.com/user-attachments/assets/b95b2f76-d571-4920-b345-04452b1c1b62)
 
 3. **Verificación del Pedido (Departamento de Material)**
    - **Actividad:** Se verifica la disponibilidad de los ítems solicitados.
    - **Acción:** El personal revisa el inventario para comprobar si los ítems están disponibles.
    - **Resultado:** Se determina si los ítems están disponibles o no.
+![image](https://github.com/user-attachments/assets/379419f7-6571-49b0-92f3-240dfc0b0541)
+![image](https://github.com/user-attachments/assets/4fabcaa5-dfc3-43a3-8545-c686dc746490)
+
 
 4. **Decisión de Disponibilidad (Departamento de Material)**
    - **Actividad:** Basado en la verificación previa, se decide la disponibilidad.
    - **Acción:** El personal marca el ítem como disponible o no disponible.
    - **Resultado:** Se bifurca el proceso en dos caminos: uno para ítems disponibles y otro para ítems no disponibles.
+![image](https://github.com/user-attachments/assets/839d56d6-548b-48fe-93af-50e405806b27)
 
 5. **Recepción de Ítems Disponibles (Departamento de Material)**
    - **Actividad:** Para los ítems disponibles, se procede a recibirlos.
@@ -254,6 +261,7 @@ El diagrama de modelo de dominio muestra la arquitectura de un sistema de gesti�
     - **Actividad:** El proceso concluye una vez que el doctor ha recibido todos los ítems necesarios.
     - **Acción:** Se confirma el cierre del proceso de pedido y recepción de ítems.
     - **Resultado:** El ciclo de pedido y recepción está completo, y el doctor puede utilizar los ítems recibidos.
+![image](https://github.com/user-attachments/assets/9987cdd9-4d91-46f6-93fb-0b4dabf11043)
 
 ---
 
