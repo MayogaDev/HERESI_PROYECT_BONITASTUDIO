@@ -1,4 +1,4 @@
-# PLATAFORMA DE PROCESOS EN EL CENTRO DE SALUD MENTAL MOISES HERESI FARWAGI - Desarrollo de Software Empresarial
+![image](https://github.com/user-attachments/assets/e1e28b64-e672-4d3c-9a6b-7dfdcaf08050)# PLATAFORMA DE PROCESOS EN EL CENTRO DE SALUD MENTAL MOISES HERESI FARWAGI - Desarrollo de Software Empresarial
 
 ## Introducción
 
@@ -195,6 +195,64 @@ Este proceso incluye la admisión, evaluación, planificación de tratamiento y 
 
 ![image](https://github.com/user-attachments/assets/53399857-bfe6-410a-9a6e-19706dfccad9)
 El diagrama de modelo de dominio muestra la arquitectura de un sistema de gestión de pedidos médicos. Los principales elementos (entidades) incluyen Paciente, Enfermera, Doctor, Ordenes, Empleado de Material, Empleado de Suministros, Inventario de Suministros, Cantidad y Artículo, y Orden de Verificación. Cada entidad tiene atributos específicos, como códigos, nombres, teléfonos y correos electrónicos. Las relaciones entre entidades se representan mediante líneas de conexión, indicando interacciones como el cuidado del paciente por la enfermera, la aprobación de pedidos por el doctor, la gestión de inventarios por los empleados de suministros, y la verificación de disponibilidad de artículos. Esto permite una clara visualización de cómo se relacionan y manejan los pedidos y suministros en el sistema.
+
+---
+
+## Descripción del Diagrama de Procesos
+![image](https://github.com/user-attachments/assets/fc74e7da-17da-421a-afc6-5fc89b58d906)
+
+
+### Procedimiento por Procedimiento
+
+1. **Inicio del Proceso (Doctor)**
+   - **Actividad:** Comienza el proceso cuando el doctor decide que se necesitan ciertos ítems.
+   - **Acción:** El doctor ordena los ítems necesarios.
+   - **Resultado:** Se inicia el flujo del proceso de pedido.
+
+2. **Recepción del Pedido (Departamento de Material)**
+   - **Actividad:** El departamento de material recibe el pedido del doctor.
+   - **Acción:** La orden es recibida formalmente por el personal del departamento de material.
+   - **Resultado:** El pedido es registrado en el sistema del departamento.
+
+3. **Verificación del Pedido (Departamento de Material)**
+   - **Actividad:** Se verifica la disponibilidad de los ítems solicitados.
+   - **Acción:** El personal revisa el inventario para comprobar si los ítems están disponibles.
+   - **Resultado:** Se determina si los ítems están disponibles o no.
+
+4. **Decisión de Disponibilidad (Departamento de Material)**
+   - **Actividad:** Basado en la verificación previa, se decide la disponibilidad.
+   - **Acción:** El personal marca el ítem como disponible o no disponible.
+   - **Resultado:** Se bifurca el proceso en dos caminos: uno para ítems disponibles y otro para ítems no disponibles.
+
+5. **Recepción de Ítems Disponibles (Departamento de Material)**
+   - **Actividad:** Para los ítems disponibles, se procede a recibirlos.
+   - **Acción:** El personal del departamento de material recibe físicamente los ítems disponibles.
+   - **Resultado:** Los ítems están listos para ser entregados al doctor.
+
+6. **Recepción de Ítems por el Doctor**
+   - **Actividad:** El doctor recibe los ítems solicitados.
+   - **Acción:** El doctor confirma la recepción de los ítems necesarios para su uso.
+   - **Resultado:** Se completa el ciclo de pedido y recepción de ítems.
+
+7. **Pedido a Proveedor Externo (Departamento de Suministros)**
+   - **Actividad:** Para los ítems no disponibles, se realiza un pedido a un proveedor externo.
+   - **Acción:** El departamento de suministros se encarga de ordenar los ítems faltantes.
+   - **Resultado:** Se asegura que los ítems faltantes sean solicitados externamente.
+
+8. **Recepción de Suministros (Departamento de Suministros)**
+   - **Actividad:** El departamento de suministros recibe los ítems del proveedor externo.
+   - **Acción:** El personal confirma la recepción de los ítems solicitados externamente.
+   - **Resultado:** Los ítems recibidos son enviados al departamento de material.
+
+9. **Recepción de Suministros por el Departamento de Material**
+   - **Actividad:** El departamento de material recibe los suministros del departamento de suministros.
+   - **Acción:** El personal del departamento de material confirma la recepción y actualiza el inventario.
+   - **Resultado:** Los ítems están listos para ser entregados al doctor.
+
+10. **Fin del Proceso**
+    - **Actividad:** El proceso concluye una vez que el doctor ha recibido todos los ítems necesarios.
+    - **Acción:** Se confirma el cierre del proceso de pedido y recepción de ítems.
+    - **Resultado:** El ciclo de pedido y recepción está completo, y el doctor puede utilizar los ítems recibidos.
 
 ---
 
