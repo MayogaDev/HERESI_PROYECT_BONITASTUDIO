@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e1e28b64-e672-4d3c-9a6b-7dfdcaf08050)# PLATAFORMA DE PROCESOS EN EL CENTRO DE SALUD MENTAL MOISES HERESI FARWAGI - Desarrollo de Software Empresarial
+# PLATAFORMA DE PROCESOS EN EL CENTRO DE SALUD MENTAL MOISES HERESI FARWAGI - Desarrollo de Software Empresarial
 
 ## Introducción
 
@@ -199,7 +199,8 @@ El diagrama de modelo de dominio muestra la arquitectura de un sistema de gesti�
 ---
 
 ## Descripción del Diagrama de Procesos
-![image](https://github.com/user-attachments/assets/fc74e7da-17da-421a-afc6-5fc89b58d906)
+![image](https://github.com/user-attachments/assets/37ddeb17-4f0a-46a3-898e-617ad510a5e1)
+
 
 
 ### Procedimiento por Procedimiento
