@@ -270,6 +270,7 @@ El diagrama de modelo de dominio muestra la arquitectura de un sistema de gesti�
 
 ## Diagrama de Composición de Servicios vía Procesos de Negocio
 ![image](https://github.com/user-attachments/assets/37ddeb17-4f0a-46a3-898e-617ad510a5e1)
+![image](https://github.com/user-attachments/assets/1cc62384-85e8-435a-aea8-67875e5262aa)
 
 ---
 
