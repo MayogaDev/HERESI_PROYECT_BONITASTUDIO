@@ -51,64 +51,89 @@ Ser un sistema de salud fortalecido legal, tecnológica y presupuestalmente, cuy
 
 ## Procesos de Negocio
 
-### Admisión de Pacientes
+### 1. Admisión de Pacientes
 
-El proceso de admisión de pacientes asegura una evaluación y tratamiento eficientes. Comienza con la verificación de si el paciente es nuevo o recurrente, y se crean o buscan los registros necesarios.
+#### Descripción
 
-#### Sectores/Roles Involucrados
+El proceso de admisión de pacientes está diseñado para asegurar una evaluación y tratamiento eficientes desde la llegada del paciente, creación de historia clínica, programación de citas y generación de cuenta corriente.
 
-- Personal de Admisión
-- Secretaría
-- Tesorería
+#### Proceso
 
-#### Información necesaria
+- **Inicio**: Comienza con el proceso de verificación del paciente.
+- **Actividades**:
+  - Verificación del paciente (nuevo o recurrente).
+  - Crear historia clínica (para nuevos pacientes).
+  - Buscar registros existentes (para pacientes recurrentes).
+  - Generar cuenta corriente según el tarifario.
+  - Programar citas necesarias.
+  - Evaluación psiquiátrica.
+- **Fin**: Finaliza con la generación de citas programadas y la evaluación psiquiátrica.
 
-- Historia clínica
-- Tarifario del hospital
-- Horario disponible de personal psiquiátrico
-- Agenda de citas
+### 2. Caja
 
-### Caja
+#### Descripción
 
-El proceso de caja gestiona la información del cliente y la transacción de pagos.
+El proceso para gestionar las transacciones financieras de los pacientes.
 
-#### Sectores/Roles Involucrados
+#### Proceso
 
-- Cajero
-- Sistema de punto de venta (POS)
+- **Inicio**: Comienza con la solicitud de información del cliente.
+- **Actividades**:
+  - Solicitar información del cliente.
+  - Registrar el monto a abonar.
+  - Emitir el recibo de caja.
+- **Fin**: Finaliza con la emisión del recibo de caja.
 
-#### Información necesaria
+### 3. Teleconsulta
 
-- Información del cliente: nombre, DNI, dirección, teléfono.
-- Información de productos o servicios: descripción, precio, cantidad.
-- Forma de pago: efectivo, tarjeta de crédito o débito.
+#### Descripción
 
-### Teleconsulta
+El proceso para la gestión de consultas a distancia, desde la admisión hasta la confirmación de citas virtuales.
 
-La teleconsulta asegura una evaluación y tratamiento eficientes a distancia, gestionando las citas y pagos de manera virtual.
+#### Proceso
 
-#### Sectores/Roles Involucrados
+- **Inicio**: Comienza con la verificación del paciente.
+- **Actividades**:
+  - Verificar si el paciente es nuevo o recurrente.
+  - Crear historia clínica digital (para nuevos pacientes).
+  - Buscar registros existentes (para pacientes recurrentes).
+  - Generar cuenta corriente según el tarifario.
+  - Programar citas necesarias.
+  - Enviar documentos y confirmaciones.
+- **Fin**: Finaliza con la confirmación de citas y envío de documentos.
 
-- Personal de Admisión
-- Secretaría
-- Tesorería
-- Soporte Técnico
+### 4. Hospitalización
 
-#### Información necesaria
+#### Descripción
 
-- Historia clínica digital
-- Tarifario del hospital
-- Horario disponible de personal psiquiátrico
-- Agenda de citas
-- Conexión y equipo tecnológico del paciente
+El proceso para la admisión y gestión de pacientes hospitalizados.
 
-### Hospitalización
+#### Proceso
 
-El proceso de hospitalización asegura una evaluación y tratamiento eficientes, verificando y registrando los datos necesarios.
+- **Inicio**: Comienza con la verificación del paciente.
+- **Actividades**:
+  - Verificar si el paciente es nuevo o recurrente.
+  - Generar ficha de hospitalización.
+  - Registrar información de internamiento.
+  - Generar deuda según el tarifario.
+- **Fin**: Finaliza con la generación de la ficha de hospitalización y la deuda correspondiente.
 
-### Atención al Paciente
+### 5. Atención al Paciente
 
-Este proceso incluye la admisión, evaluación, planificación de tratamiento y seguimiento de los pacientes para asegurar una atención integral.
+#### Descripción
+
+El proceso para asegurar una evaluación y tratamiento integrales y continuos de los pacientes.
+
+#### Proceso
+
+- **Inicio**: Comienza con la recepción y admisión del paciente.
+- **Actividades**:
+  - Recepción y admisión del paciente.
+  - Evaluación inicial del paciente.
+  - Planificación del tratamiento.
+  - Seguimiento y evaluaciones periódicas.
+  - Cierre del caso.
+- **Fin**: Finaliza con el cierre del caso.
 
 ## Dominio, Área Funcional y Subsistemas
 
